@@ -28,14 +28,13 @@ Copy code
 Run the script as the root user by executing the following command:
 
 <pre>
-```bash
+bash
 #!/usr/bin/env bash
 
 set -e
 
 bash
 sudo ./vpn_setup.sh
-```
 </pre>
 
 Note: Running the script as the root user is required because it needs administrative privileges to install packages and modify system configurations.
