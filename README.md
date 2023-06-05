@@ -1,11 +1,11 @@
 # STRONGSWAN
 Script to create an encrypted communications channel using Strong Swan.
 
-VPN Server Setup Script
+**VPN Server Setup Script**
 
 This is a script written in Bash that automates the setup of a VPN (Virtual Private Network) server using the strongSwan software on a Linux machine. It simplifies the process of installing the necessary packages, configuring security settings, generating certificates and keys, and setting up the firewall.
 
-Encryption and Security
+**Encryption and Security**
 
 The script focuses on providing strong encryption and security for the VPN connections. It uses the following encryption algorithms and key lengths:
 
@@ -15,7 +15,7 @@ Key Length: The script supports key lengths of 128, 192, or 256 bits for symmetr
 
 The script also configures the SSH daemon to use a non-standard port for added security and installs fail2ban, which protects against brute-force attacks on the server.
 
-Usage
+**Usage**
 
 To use this script, follow these steps:
 
