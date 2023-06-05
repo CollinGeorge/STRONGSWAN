@@ -42,7 +42,7 @@ Firewall Configuration
 
 The script uses UFW (Uncomplicated Firewall) to configure the firewall rules. By default, the script allows SSH connections, as well as IPsec ports 500 and 4500 for VPN connections. All other incoming traffic is blocked, providing an additional layer of security.
 
-License
+**License**
 
 This script is licensed under the MIT License. Feel free to modify and distribute it as needed.
 
