@@ -22,18 +22,12 @@ To use this script, follow these steps:
 Clone the repository or download the script file to your Linux machine.
 Open a terminal and navigate to the directory where the script is located.
 Make the script executable by running the following command:
-bash
-Copy code
-'''chmod +x vpn_setup.sh'''
-Run the script as the root user by executing the following command:
-
 <pre>
-bash
-#!/usr/bin/env bash
+chmod +x vpn_setup.sh
+</pre>
 
-set -e
-
-bash
+Run the script as the root user by executing the following command:
+<pre>
 sudo ./vpn_setup.sh
 </pre>
 
